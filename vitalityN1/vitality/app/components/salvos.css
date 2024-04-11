@@ -1,0 +1,50 @@
+.btn-salvos{
+    text-align: end;
+}
+.btn-salvos button{
+    height: 35px;
+    width: 20%;
+    padding: 0.5rem;
+    margin: 2%;
+    text-align: center;
+    background-color: transparent;
+    border-radius: 10px;
+    border: solid #113293 2px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.btn-salvos button:hover{
+    color: white;
+    background-color: #113293;
+}
+.content-salvos{
+    width: 100%;
+    margin: 20 auto;
+}
+.salvos{
+    flex-wrap: column;
+    align-items: center;
+    width: 90%;
+    text-align: center;
+}
+.titulo{
+    width: 100%;
+    border-radius: 20px;
+    padding: 20px 0px;
+    background-color: #0B2676;
+}
+.titulo p{
+    color: white;
+    margin: 0 auto;
+    font-weight: 600;
+}
+
+@media (min-width: 768px) {
+    .salvos{
+        width: 60%;
+        margin: 0 auto;
+        
+    }
+}

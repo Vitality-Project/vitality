@@ -1,0 +1,71 @@
+.editar{
+    width: 80%;
+}
+.btns-editar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.dados-editar{
+    width: 100%;
+}
+.button-editar{
+    height: 35px;
+    width: 50%;
+    padding: 0.5rem;
+    margin: 2%;
+    text-align: center;
+    background-color: transparent;
+    border-radius: 10px;
+    border: solid #113293 2px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.button-editar:hover{
+    background-color: #113293;
+    color: white;
+}
+.button-editar a{
+    text-decoration: none;
+    color: black;
+}
+
+.line-one{
+    display: flex;
+    width:100%;
+    gap: 10px;
+}
+.editar-input{
+    border-radius: 10px;
+    border: solid #8b8d94 1.5px;
+    height: 35px;
+    width: 100%;
+    margin-top: 10px;
+
+}
+.editar-input::placeholder{
+    padding: 5px;
+    color: black;
+    font-weight: 600;
+}
+#input-sintomas{
+    width: 100%;
+    height: 100px;
+}
+#input-sintomas::placeholder{
+    top: 0;
+    position: absolute;
+    left: 0;
+}
+
+#input-data{
+    max-width: 30%;
+}
+
+@media (min-width: 768px){
+    .editar{
+        width: 50%;
+    }
+}
