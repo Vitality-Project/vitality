@@ -1,8 +1,9 @@
 ## Vitality 
 
-O vitality é uma solução facilitadora desenvolvida para a população dar mais atenção e cuidado aos seus sintomas quando estes aparecem, <br>
-providenciando recursos para registros de sintomas, os quais podem ser transformados em relatórios em pdf para facilitar no momento da <br> consulta.
-Ademais, o Vitality também conecta o usuário ao hospital mais próximo da localização inserida por este.
+Objetivo: <br>
+O vitality é uma solução desenvolvida com o objetivo de propulsionar a atenciosidade da população brasileira com a saúde e sintomas quando estes aparecem,
+providenciando, então, recursos que possibilitam registro de sintomas, os quais podem ser transformados em relatórios em pdf para facilitar o processo de diagnóstico no momento da consulta.
+Ademais, como ação facilitadora, o Vitality também conecta o usuário ao hospital mais próximo da localização inserida por este por meio de uma API.
 <br>
 <br>
 Prototipo:<br>
