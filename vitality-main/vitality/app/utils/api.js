@@ -27,7 +27,7 @@ export async function getSymptoms(){
 // Update
 export async function updateSymptoms(symptom){
     try{
-        let response = await fetch("http://localhost:8000/quotes/" + symptom, 
+        let response = await fetch("http://localhost:8000/editar/" + symptom, 
         {
             method: 'PUT',
             headers: { "Content-Type": "application/json" },
