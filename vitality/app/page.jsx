@@ -1,6 +1,7 @@
 import Conteudo from './home/page';
+
 import Menu from './components/menu/menu';
-import Salvos from './components/Salvos';
+
 
 
 export default function Home() {
@@ -8,6 +9,8 @@ export default function Home() {
     <main>
        <Menu />
       <Conteudo />
+      
+    
     </main>
   );
 }

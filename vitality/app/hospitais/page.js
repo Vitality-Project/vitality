@@ -19,19 +19,14 @@ export default function Hospitais(){
                     <div className="legenda-hospital">
                         <h2>Encontre o hospital mais próximo e apresente seus sintomas.</h2>
                     </div>
-                    <div className="foto-hospital">
-                        <img src="../imgs/img-hospitais.svg" alt='mulher mexendo no celular'/>
-                    </div>
-                    <div className='dados-hospital'>
-                        <input type='text' className="dados-input" placeholder="Endereço:"/>
-                        <input type='text' className="dados-input" placeholder="CEP:"/>
-                        <input type='text' className="dados-input" placeholder="Cidade:"/>
-                        <input type='text' className="dados-input" placeholder="Estado: "/>
-                    </div>
-                    <div className="btn-encontrar">
-                        <button type="submit"> ENCONTRAR </button>
-                    </div>
-                    <footer className="rodape">
+                    
+            <div>            
+<iframe src="https://storage.googleapis.com/maps-solutions-vf3z0agced/neighborhood-discovery/xi2y/neighborhood-discovery.html"
+  style={{ width: '100%', height: '100%', border: '0' }} loading="lazy">
+</iframe>
+
+            </div>
+        <footer className="rodape">
         <div className="rodape1">
             <li> <Link href="/home"><img src="../imgs/icon-home.svg" className="img-footer"/> </Link> </li></div>
 
