@@ -1,0 +1,46 @@
+
+#fundo-responsivo{
+    width: auto;
+    height: auto;
+}
+
+.legenda-hospital{
+    font-size: 0.6rem;
+}
+.btn-encontrar button{
+    width: 15rem;
+    align-items: center;
+    height: 30px;
+    margin: 0 auto;
+    background-color: #0B2676;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.rodape{
+    font-family: "Inter", sans-serif;
+    display: flex;
+    background-color: #fff;
+    justify-content: center;
+    list-style: none;
+    width:89.8%;
+    padding: 5%; 
+    border: solid 2px #A6A6A6;
+    height: 20px;
+    gap:15%;
+  }
+@media (min-width: 768px) {
+    .foto-hospital img{
+        width: 55%;
+    }
+}
+@media (min-width: 1024px) {
+    #fundo-responsivo{
+        width: 100rem;
+    }
+    .map{
+        height: 1100px;
+    }
+}

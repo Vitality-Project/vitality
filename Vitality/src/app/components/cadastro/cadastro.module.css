@@ -1,0 +1,13 @@
+
+.rodape{
+    font-family: "Inter", sans-serif;
+    display: flex;
+    background-color: #fff;
+    justify-content: center;
+    list-style: none;
+    width:89.8%;
+    padding: 5%; 
+    border: solid 2px #A6A6A6;
+    height: 20px;
+    gap:15%;
+  }

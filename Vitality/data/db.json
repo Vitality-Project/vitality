@@ -1,0 +1,19 @@
+{
+  "sintomas": [
+      {
+          "id": "2",
+          "titulo": "dor de cabeca",
+          "sintomas": "bla bla bla bla bla"
+      }, 
+      {
+          "id": "3",
+          "titulo": "dor no nariz",
+          "sintomas": "nariz necrosando, muita dor de cabeca e febre"
+      },
+      {
+          "id": "3",
+          "titulo": "dor no nariz",
+          "sintomas": "nariz necrosando, muita dor de cabeca e febre"
+      }
+  ]
+}
